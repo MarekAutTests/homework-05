@@ -4,7 +4,7 @@ npm install --save-dev jest-extended
 import {CountriesPrefix} from '../src/CountriesPrefix'
 
 let country = new CountriesPrefix()
-let estoniaGeneratedValue:string, latviaGeneratedValue:string, lithuaniaGeneratedValue:string
+let estoniaGeneratedValue: string, latviaGeneratedValue: string, lithuaniaGeneratedValue: string
 
 beforeAll(() => {
     estoniaGeneratedValue = country.estoniaPrefixAndNumbers()
